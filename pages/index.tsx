@@ -10,7 +10,7 @@ interface IProps {
 
 export default function Home() {
 
-  const [data, setData] = useState();
+  const [data, setData] = useState<any>();
 
   const fetchData = async () => {
     const result = await axios(
